@@ -1,0 +1,109 @@
+body{
+	height: 40vh;
+	width: 100%;
+	background: #000000  no-repeat center;
+}
+.star{
+	display: block;
+	width:2px;
+	height: 2px;
+	position:relative;
+	border-radius: 50%;
+	background: radial-gradient(ellipse at center, #ffffff 0%,#e5e5e5 100%); 
+	transition: 2s;
+}
+
+.shine{
+	transform: scale(3,3);
+}
+.sun{
+	width: 300px;
+	height: 300px;
+	background: url(http://pngimg.com/uploads/sun/sun_PNG13424.png) center;
+	background-size: contain;
+	position:absolute;
+	top:150px;
+	left:10px;
+	z-index: 1;
+}
+.planet{
+	background-size: contain;
+	position: absolute;
+	z-index: 1;
+	color: white;
+}
+.mercury{
+	width:10px;
+	height:10px;
+}
+.venus{
+	width:30px;
+	height:30px;
+}
+.earth{
+	width:30px;
+	height:30px;
+}
+.mars{
+	width:20px;
+	height:20px;
+}
+.jupiter{
+	width:500px;
+	height:500px;
+}
+.saturn{
+	width:400px;
+	height:400px;
+}
+.uranus{
+	width:350px;
+	height:350px;
+}
+.neptune{
+	width:300px;
+	height:300px;
+}
+.info{
+	display:none;
+	position: absolute;
+	box-sizing: content-box;
+	width: 10%;
+	background: #15061e;
+	transition: 1s;
+	border-radius: 3px;
+	border:1px solid yellow;
+}
+.big{
+	transform: scale(2,4);
+	opacity: 0.6;
+	z-index: 2;
+}
+.title{
+	color:yellow;
+	font-size: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif; 
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+}
+.description{
+	color:yellow;
+	font-size: 5px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+}
+.turnOff{
+	position:absolute;
+	top:0;
+	right: 0;
+	height: 5px;
+	width: 5px;
+	font-size: 3px;
+	font-weight: bolder;
+	padding: 0;
+	margin: 0;
+	border:0;
+}
